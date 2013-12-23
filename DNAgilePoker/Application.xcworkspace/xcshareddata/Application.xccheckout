@@ -5,18 +5,30 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
+<<<<<<< HEAD
 	<string>5D715831-34A2-4107-B1D7-A72E68E36EF4</string>
+=======
+	<string>326209C2-4DD4-4E03-ABCC-F9959F25D781</string>
+>>>>>>> Initial Commit
 	<key>IDESourceControlProjectName</key>
 	<string>Application</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+<<<<<<< HEAD
 		<key>D63D4B6C-D1F3-4609-B699-4BDB60679E10</key>
 		<string>ssh://github.com/ehlersd/DNAppStartupTemplate.git</string>
+=======
+		<key>615748A3-385E-4E46-8B82-8E3B1E351E2D</key>
+		<string>ssh://github.com/ehlersd/DNAgilePoker.git</string>
+		<key>FAB81896-53CF-46E1-924A-FAE2251AAA23</key>
+		<string>ssh://github.com/ksuther/KSScreenshotManager.git</string>
+>>>>>>> Initial Commit
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>DNAgilePoker/Application.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
+<<<<<<< HEAD
 		<key>D63D4B6C-D1F3-4609-B699-4BDB60679E10</key>
 		<string>../..</string>
 	</dict>
@@ -26,16 +38,44 @@
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
 	<string>D63D4B6C-D1F3-4609-B699-4BDB60679E10</string>
+=======
+		<key>615748A3-385E-4E46-8B82-8E3B1E351E2D</key>
+		<string>../..</string>
+		<key>FAB81896-53CF-46E1-924A-FAE2251AAA23</key>
+		<string>../Application/Vendor/KSScreenshotManager</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/ehlersd/DNAgilePoker.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>615748A3-385E-4E46-8B82-8E3B1E351E2D</string>
+>>>>>>> Initial Commit
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
+<<<<<<< HEAD
 			<string>D63D4B6C-D1F3-4609-B699-4BDB60679E10</string>
 			<key>IDESourceControlWCCName</key>
 			<string>DNAgilePoker</string>
 		</dict>
+=======
+			<string>615748A3-385E-4E46-8B82-8E3B1E351E2D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>DNAgilePoker</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FAB81896-53CF-46E1-924A-FAE2251AAA23</string>
+			<key>IDESourceControlWCCName</key>
+			<string>KSScreenshotManager</string>
+		</dict>
+>>>>>>> Initial Commit
 	</array>
 </dict>
 </plist>
