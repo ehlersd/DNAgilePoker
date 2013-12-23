@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5D715831-34A2-4107-B1D7-A72E68E36EF4</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Application</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D63D4B6C-D1F3-4609-B699-4BDB60679E10</key>
+		<string>ssh://github.com/ehlersd/DNAppStartupTemplate.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>DNAgilePoker/Application.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D63D4B6C-D1F3-4609-B699-4BDB60679E10</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/ehlersd/DNAppStartupTemplate.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D63D4B6C-D1F3-4609-B699-4BDB60679E10</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D63D4B6C-D1F3-4609-B699-4BDB60679E10</string>
+			<key>IDESourceControlWCCName</key>
+			<string>DNAgilePoker</string>
+		</dict>
+	</array>
+</dict>
+</plist>
