@@ -1,0 +1,3 @@
+[submodule "DNAgilePoker/Application/Vendor/KSScreenshotManager"]
+	path = DNAgilePoker/Application/Vendor/KSScreenshotManager
+	url = git@github.com:ksuther/KSScreenshotManager.git
