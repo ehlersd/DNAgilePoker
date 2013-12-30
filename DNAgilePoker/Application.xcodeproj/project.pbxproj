@@ -38,6 +38,9 @@
 		AD2D248B181AD9AB005E20DE /* ProximaNova-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = AD2D2481181AD9AB005E20DE /* ProximaNova-RegularItalic.otf */; };
 		AD2D248C181AD9AB005E20DE /* ProximaNova-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = AD2D2482181AD9AB005E20DE /* ProximaNova-Semibold.otf */; };
 		AD2D248D181AD9AB005E20DE /* ProximaNova-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = AD2D2483181AD9AB005E20DE /* ProximaNova-SemiboldItalic.otf */; };
+		AD31F9121869F6B000C0F9ED /* PokerCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = AD31F9111869F6B000C0F9ED /* PokerCollectionViewLayout.m */; };
+		AD31F9191870F36B00C0F9ED /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD31F9181870F36B00C0F9ED /* MenuViewController.m */; };
+		AD31F91A1870F36B00C0F9ED /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD31F9181870F36B00C0F9ED /* MenuViewController.m */; };
 		AD32EB131855269D0091F7BB /* btnSuccessNipple.png in Resources */ = {isa = PBXBuildFile; fileRef = AD32EB111855269D0091F7BB /* btnSuccessNipple.png */; };
 		AD32EB141855269D0091F7BB /* btnSuccessNipple@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD32EB121855269D0091F7BB /* btnSuccessNipple@2x.png */; };
 		AD32EB1618556FEE0091F7BB /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD32EB1518556FED0091F7BB /* MessageUI.framework */; };
@@ -269,6 +272,10 @@
 		AD2D2482181AD9AB005E20DE /* ProximaNova-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Semibold.otf"; sourceTree = "<group>"; };
 		AD2D2483181AD9AB005E20DE /* ProximaNova-SemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-SemiboldItalic.otf"; sourceTree = "<group>"; };
 		AD2D24A4181AFA4A005E20DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AD31F9101869F6B000C0F9ED /* PokerCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PokerCollectionViewLayout.h; path = "Main View Controllers/PokerCollectionViewLayout.h"; sourceTree = "<group>"; };
+		AD31F9111869F6B000C0F9ED /* PokerCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PokerCollectionViewLayout.m; path = "Main View Controllers/PokerCollectionViewLayout.m"; sourceTree = "<group>"; };
+		AD31F9171870F36B00C0F9ED /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		AD31F9181870F36B00C0F9ED /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
 		AD32EB111855269D0091F7BB /* btnSuccessNipple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnSuccessNipple.png; sourceTree = "<group>"; };
 		AD32EB121855269D0091F7BB /* btnSuccessNipple@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btnSuccessNipple@2x.png"; sourceTree = "<group>"; };
 		AD32EB1518556FED0091F7BB /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
@@ -584,6 +591,8 @@
 				AD8489BC18654F8400302C5C /* MainViewController.m */,
 				AD8489BD18654F8400302C5C /* NavigationViewController.h */,
 				AD8489BE18654F8400302C5C /* NavigationViewController.m */,
+				AD31F9171870F36B00C0F9ED /* MenuViewController.h */,
+				AD31F9181870F36B00C0F9ED /* MenuViewController.m */,
 			);
 			path = "Main View Controllers";
 			sourceTree = "<group>";
@@ -813,6 +822,8 @@
 		FFCC590C17439553006F3673 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				AD31F9101869F6B000C0F9ED /* PokerCollectionViewLayout.h */,
+				AD31F9111869F6B000C0F9ED /* PokerCollectionViewLayout.m */,
 				AD8489B418654F8400302C5C /* Main View Controllers */,
 				AD8489CC18654FAB00302C5C /* LOG (SignIn:SignUp) View Controllers */,
 			);
@@ -1299,6 +1310,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD8489C618654F8D00302C5C /* CDOConstant.m in Sources */,
+				AD31F91A1870F36B00C0F9ED /* MenuViewController.m in Sources */,
 				AD8489CA18654F9800302C5C /* MainViewController.m in Sources */,
 				ADED108B184423A900D26466 /* KZColorPickerAlphaSlider.m in Sources */,
 				AD22097E185BC30600914F5B /* AppDelegate.m in Sources */,
@@ -1354,8 +1366,10 @@
 				ADF634D817F09CB400CD6740 /* KZColorPickerHSWheel.m in Sources */,
 				AD8489B318654F6B00302C5C /* CDConstantModel.m in Sources */,
 				AD8489991860C85500302C5C /* Constants.xcdatamodeld in Sources */,
+				AD31F9121869F6B000C0F9ED /* PokerCollectionViewLayout.m in Sources */,
 				AD22097B185B834C00914F5B /* AppThemeManager.m in Sources */,
 				AD8489C318654F8400302C5C /* NavigationViewController.m in Sources */,
+				AD31F9191870F36B00C0F9ED /* MenuViewController.m in Sources */,
 				AD8489C018654F8400302C5C /* iPadRootViewController.m in Sources */,
 				ADF634DA17F09CB400CD6740 /* KZColorPickerSwatchView.m in Sources */,
 				AD22097A185B834C00914F5B /* AppConstants.m in Sources */,

@@ -6,6 +6,9 @@
 //  Copyright (c) 2013 DoubleNode, LLC. All rights reserved.
 //
 
+#import "UIStoryboard+StoryboardInitializer.h"
+
+#import "MenuViewController.h"
 #import "iPhoneRootViewController.h"
 
 #import "NavigationViewController.h"
@@ -27,11 +30,11 @@
 
 - (void)awakeFromNib
 {
-    NavigationViewController*   navViewController  = [self.storyboard instantiateViewControllerWithIdentifier:@"navigationController"];
+    NavigationViewController*   navViewController  = [self.storyboard instanceWithClass:[NavigationViewController class]];
     navViewController.rootViewController    = self;
 
     self.contentViewController  = navViewController;
-    self.menuViewController     = [self.storyboard instantiateViewControllerWithIdentifier:@"menuController"];
+    self.menuViewController     = [self.storyboard instanceWithClass:[MenuViewController class]];
 }
 
 - (void)viewDidLoad

@@ -228,6 +228,12 @@
 #define COCOAPODS_VERSION_MINOR_SHEmailValidator 0
 #define COCOAPODS_VERSION_PATCH_SHEmailValidator 4
 
+// StoryboardInitializer
+#define COCOAPODS_POD_AVAILABLE_StoryboardInitializer
+#define COCOAPODS_VERSION_MAJOR_StoryboardInitializer 0
+#define COCOAPODS_VERSION_MINOR_StoryboardInitializer 0
+#define COCOAPODS_VERSION_PATCH_StoryboardInitializer 2
+
 // TransformerKit
 #define COCOAPODS_POD_AVAILABLE_TransformerKit
 #define COCOAPODS_VERSION_MAJOR_TransformerKit 0

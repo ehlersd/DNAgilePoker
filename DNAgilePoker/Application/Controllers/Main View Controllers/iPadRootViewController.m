@@ -6,6 +6,9 @@
 //  Copyright (c) 2013 DoubleNode, LLC. All rights reserved.
 //
 
+#import "UIStoryboard+StoryboardInitializer.h"
+
+#import "MenuViewController.h"
 #import "iPadRootViewController.h"
 
 #import "NavigationViewController.h"
@@ -27,12 +30,11 @@
 
 - (void)awakeFromNib
 {
-    NavigationViewController*   navViewController  = [self.storyboard instantiateViewControllerWithIdentifier:@"contentController"];
+    NavigationViewController*   navViewController  = [self.storyboard instanceWithClass:[NavigationViewController class]];
     navViewController.rootViewController   = self;
     
     self.contentViewController  = navViewController;
-    //self.contentViewController  = [self.storyboard instantiateViewControllerWithIdentifier:@"contentController"];
-    self.menuViewController     = [self.storyboard instantiateViewControllerWithIdentifier:@"menuController"];
+    self.menuViewController     = [self.storyboard instanceWithClass:[MenuViewController class]];
     
     self.liveBlur                   = YES;
     self.liveBlurBackgroundStyle    = REFrostedViewControllerLiveBackgroundStyleDark;

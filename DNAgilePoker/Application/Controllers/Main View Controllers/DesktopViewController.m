@@ -6,10 +6,13 @@
 //  Copyright (c) 2013 DoubleNode, LLC. All rights reserved.
 //
 
+#import "UIStoryboard+StoryboardInitializer.h"
+
 #import "DesktopViewController.h"
 
 #import "LOGWelcomeViewController.h"
 #import "iPhoneRootViewController.h"
+#import "iPadRootViewController.h"
 
 #import "AppDelegate.h"
 
@@ -59,8 +62,17 @@
             self.welcomeVC   = [[LOGWelcomeViewController alloc] initWithNibName:nil bundle:nil];
             self.welcomeVC.loginBlock   = ^(LOGWelcomeViewController* viewController)
             {
-                UIViewController*   newController = [storyboard instantiateViewControllerWithIdentifier:@"rootController"];
+                UIViewController*   newController;
 
+                if ([DNUtilities isDeviceIPad] == YES)
+                {
+                    newController   = [storyboard instanceWithClass:[iPadRootViewController class]];
+                }
+                else
+                {
+                    newController   = [storyboard instanceWithClass:[iPhoneRootViewController class]];
+                }
+                
                 [parentController presentViewController:newController
                                                animated:YES
                                              completion:nil];
